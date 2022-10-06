@@ -1,0 +1,129 @@
+body {
+    background-color: lightgrey;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 13vh;
+    background-color: #dca500;
+    color: white;
+
+}
+
+.navbar h1 {
+   text-align: center;
+   margin-top: 0px;
+   padding-top: 5px;
+}
+
+.navbar h1 span {
+    color: rgb(52, 50, 50);
+}
+
+.navbar .links {
+    position: absolute;
+    top: 8vh;
+    left: 36%;
+    text-align: center;
+    
+}
+
+.navbar .links a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 1em;
+}
+
+.postagem {
+    background-color: white;
+    width: 40vw;
+    height: 68vh;
+
+
+    margin: 15px;
+    margin-left: 20vw;
+
+    padding: 15px;
+}
+
+.postagem img {
+    display: block;
+    margin: 5px auto;
+    width: 39vw;
+}
+
+.postagem h2, #leiamais {
+    color:#dca500;
+    margin: 0;
+}
+
+.postagem p {
+    margin: 0;
+}
+
+.recentes {
+    background-color: white;
+
+    width: 13.5vw;
+    height: 26vh;
+
+    position: absolute;
+    top: 15vh;
+    right: 21vw;
+
+    font-size: 0.9em;
+
+    padding: 7px;
+
+}
+
+.recentes h3, .categorias h3 {
+    background-color: darkgrey;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    color: rgb(69, 69, 69);
+}
+
+.recentes p {
+    margin: 0;
+}
+
+.categorias {
+    background-color: white;
+
+    width: 13.5vw;
+    height: 18vh;
+
+    position: absolute;
+    top: 45vh;
+    right: 21vw;
+
+    font-size: 0.9em;
+
+    padding: 7px;
+
+    line-height: 1.5;
+
+}
+
+.categorias a {
+    text-decoration: none;
+    color: #dca500;
+    
+}
+
+footer {
+    display: flex;
+    width: 50%;
+    height: 6vh;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+    background-color: darkgrey;
+}
+
